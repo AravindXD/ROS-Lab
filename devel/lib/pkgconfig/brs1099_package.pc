@@ -1,0 +1,8 @@
+prefix=/home/arav/Desktop/catkin_ws/devel
+
+Name: brs1099_package
+Description: Description of brs1099_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
