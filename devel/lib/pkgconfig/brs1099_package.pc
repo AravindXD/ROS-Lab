@@ -3,6 +3,6 @@ prefix=/home/arav/Desktop/catkin_ws/devel
 Name: brs1099_package
 Description: Description of brs1099_package
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/arav/Desktop/catkin_ws/devel/include
 Libs: -L${prefix}/lib 
-Requires: 
+Requires: rospy std_msgs message_runtime
