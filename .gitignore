@@ -12,3 +12,4 @@ logs/
 *.swo
 .DS_Store
 __pycache__/
+README.md
