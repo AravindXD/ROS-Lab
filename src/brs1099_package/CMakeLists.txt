@@ -10,6 +10,7 @@ project(brs1099_package)
 find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
+  geometry_msgs
   message_generation
 )
 
@@ -50,7 +51,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   MyMsg.msg
-#   Message2.msg
+  DroneTelemetry.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -71,6 +72,7 @@ add_message_files(
 generate_messages(
   DEPENDENCIES
   std_msgs
+  geometry_msgs
 )
 
 ################################################

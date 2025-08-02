@@ -1,0 +1,14 @@
+build/
+devel/
+install/
+logs/
+*.pyc
+*.pyo
+*~
+.catkin_tools/
+.catkin_workspace
+.vscode/
+*.swp
+*.swo
+.DS_Store
+__pycache__/
